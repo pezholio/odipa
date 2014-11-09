@@ -1,0 +1,120 @@
+{
+  "name": "ODIPA",
+  "style": "American IPA",
+  "brewer": "",
+  "batchSize": 18,
+  "boilSize": 20.6127168,
+  "boilTime": 60,
+  "efficiency": 0.65,
+  "og": 1.046,
+  "fg": 1.01,
+  "hops": [
+    {
+      "name": "Cascade",
+      "aa": 0.055,
+      "amount": 0.02,
+      "use": "Boil",
+      "time": 15,
+      "form": "Pellet"
+    },
+    {
+      "name": "Simcoe",
+      "aa": 0.13,
+      "amount": 0.02,
+      "use": "Boil",
+      "time": 15,
+      "form": "Pellet"
+    },
+    {
+      "name": "Citra",
+      "aa": 0.12,
+      "amount": 0.02,
+      "use": "Aroma",
+      "time": 30,
+      "form": "Pellet"
+    },
+    {
+      "name": "Simcoe",
+      "aa": 0.13,
+      "amount": 0.02,
+      "use": "Aroma",
+      "time": 30,
+      "form": "Pellet"
+    },
+    {
+      "name": "Citra",
+      "aa": 0.12,
+      "amount": 0.02,
+      "use": "Dry Hop",
+      "time": "3 days",
+      "form": "Pellet"
+    }
+  ],
+  "fermentables": [
+    {
+      "name": "Pale Malt, Maris Otter",
+      "amount": 3.7499976,
+      "color": 3,
+      "yield": 0.825,
+      "mashed": true
+    },
+    {
+      "name": "Rye Malt",
+      "amount": 0.7500002,
+      "color": 4.7,
+      "yield": 0.63,
+      "mashed": true
+    },
+    {
+      "name": "Wheat Malt, Ger",
+      "amount": 0.5000001,
+      "color": 2,
+      "yield": 0.84,
+      "mashed": true
+    },
+    {
+      "name": "Cara-Pils/Dextrine",
+      "amount": 0.2000001,
+      "color": 2,
+      "yield": 0.72,
+      "mashed": true
+    },
+    {
+      "name": "Caramel/Crystal Malt - 30L",
+      "amount": 0.2000001,
+      "color": 30,
+      "yield": 0.75,
+      "mashed": true
+    },
+    {
+      "name": "Crystal Rye",
+      "amount": 0.1999999,
+      "color": 150,
+      "yield": 0.75,
+      "mashed": true
+    }
+  ],
+  "additions": [],
+  "yeast": {
+    "name": "American Ale II",
+    "type": "Ale",
+    "lab": "Wyeast Labs",
+    "code": "1272",
+    "attenuation": 0.74,
+    "amount": "124.21 mL"
+  },
+  "mash": [
+    {
+      "name": "Saccharification",
+      "type": "Infusion",
+      "rampTime": 10,
+      "duration": 60,
+      "infusionTemp": 75.7,
+      "targetTemp": 68.9,
+      "amount": 24.0360229
+    }
+  ],
+  "ibu": 51.1,
+  "color": 13.3,
+  "abv": 0.048
+}

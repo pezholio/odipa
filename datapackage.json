@@ -1,0 +1,26 @@
+{
+  "name": "odipa",
+  "title": "ODIPA",
+  "description": "Open Beer Recipe for ODIPA",
+  "version": "1.0",
+  "licenses": [
+    {
+      "url": "http://creativecommons.org/licenses/by/4.0/",
+      "name": "Creative Commons Attribution 4.0 International License",
+      "version": "4.0",
+      "id": "cc-by-4.0"
+    }
+  ],
+  "resources": [
+    {
+      "path": "data/odipa.json",
+      "name": "Recipe in Beer JSON format",
+      "format": "json"
+    },
+    {
+      "path": "data/odipa.xml",
+      "name": "Recipe in Beer XML format",
+      "format": "xml"
+    }
+  ]
+}
